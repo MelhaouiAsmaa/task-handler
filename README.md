@@ -1,7 +1,7 @@
 **Task Handler - Serverless Task Management Backend**
 This project is a simple serverless backend for managing tasks using AWS Lambda (Java) and DynamoDB. It provides two Lambda functions: one to create tasks and one to retrieve tasks from a DynamoDB table.
 
-**Features**
+## Features
 -Create tasks with a unique UUID and store them in DynamoDB
 -Retrieve all tasks from DynamoDB
 -Uses AWS SDK v2 for DynamoDB operations
