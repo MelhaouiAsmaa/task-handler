@@ -21,6 +21,7 @@ This project is a simple serverless backend for managing tasks using AWS Lambda 
 
 Clone the repo and build the fat JAR to deploy to AWS Lambda:
 
+```bash
 git clone https://github.com/MelhaouiAsmaa/task-handler.git
 cd task-handler
 mvn clean package
