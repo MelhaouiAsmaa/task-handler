@@ -2,15 +2,15 @@
 This project is a simple serverless backend for managing tasks using AWS Lambda (Java) and DynamoDB. It provides two Lambda functions: one to create tasks and one to retrieve tasks from a DynamoDB table.
 
 **Features**
-Create tasks with a unique UUID and store them in DynamoDB
-Retrieve all tasks from DynamoDB
-Uses AWS SDK v2 for DynamoDB operations
-Built with Maven and packaged as a fat JAR
+-Create tasks with a unique UUID and store them in DynamoDB
+-Retrieve all tasks from DynamoDB
+-Uses AWS SDK v2 for DynamoDB operations
+-Built with Maven and packaged as a fat JAR
 
 **Prerequisites**
-AWS Account
-AWS CLI or access to AWS Management Console
-Java 17 and Maven installed locally (for building the project)
+-AWS Account
+-AWS CLI or access to AWS Management Console
+-Java 17 and Maven installed locally (for building the project)
 
 **Setup and Deployment Steps**
 **1. Build the Project**
