@@ -25,7 +25,7 @@ Clone the repo and build the fat JAR to deploy to AWS Lambda:
 git clone https://github.com/MelhaouiAsmaa/task-handler.git
 cd task-handler
 mvn clean package
-
+```
 
 This will generate a shaded JAR file under `target/lambda-tasks-1.0-SNAPSHOT.jar`.
 
@@ -82,21 +82,25 @@ To invoke the Lambdas over HTTP:
 
 Use curl or Postman to send a POST request:
 
+```bash
 curl -X POST https://<your-api-id>.execute-api.<region>.amazonaws.com/tasks
 -H "Content-Type: application/json"
 -d '{"title": "Test Task", "description": "This is a test task"}'
-
+```
 
 **Response:**
 
+```bash
 Task created with ID: <uuid>
+```
 
 #### Retrieve Tasks (GET)
 
 Send a GET request:
 
+```bash
 curl https://<your-api-id>.execute-api.<region>.amazonaws.com/tasks
-
+```
 
 **Response:** JSON array of tasks.
 
